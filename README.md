@@ -2,7 +2,7 @@
 
 Technology Used: Html, Css, JavaScript
 
-Live Link:
+Live Link: https://web-genesis-random-background-color-change.netlify.app/
 
 GitHub Code: https://github.com/itzJunaedRayhan/Random-Background-Color
 
