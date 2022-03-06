@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(91, 26, 165);
+    color: #fff;
+    font-family: Poppins;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+.left{
+    width: 50%;
+    min-width: 300px;
+    min-height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.left button{
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    border: none;
+    background-color: transparent;
+    border: 3px solid tomato;
+    color: tomato;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0px 0px 12px rgba(165, 82, 26, 0.856);
+}
+
+.left button:focus{
+    outline: none;
+}
+
+
+.right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.author{
+    width: 450px;
+    height: 300px;
+}
+
+.author img{
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1400px) {
+    .left{
+        justify-content: center;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .author{
+        display: none;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 0%;
+    }
+}
+
+
+@media only screen and (max-width: 420px) {
+    .left button{
+        width: 150px;
+        height: 55px;
+    }   
+}
